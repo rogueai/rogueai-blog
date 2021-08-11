@@ -1,6 +1,3 @@
-[submodule "rogueai"]
-	path = rogueai
-	url = git@github.com:rogueai/rogueai.git
 [submodule "rogueai.github.io"]
 	path = rogueai.github.io
 	url = https://github.com/rogueai/rogueai.github.io.git
