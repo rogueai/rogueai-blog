@@ -1,0 +1,23 @@
+{
+  "name": "markdown-it-latex",
+  "version": "4.2.0",
+  "source": "index.js",
+  "main": "dist/markdownItLatex.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@types/markdown-it": "^10.0.0",
+    "jest": "^27.0.6",
+    "latex.ts": "~/Git/LaTeX.ts/",
+    "markdown-it": "^10.0.0",
+    "markdown-it-anchor": "^6.0.0",
+    "microbundle": "^0.12.4",
+    "svgdom": "^0.1.8"
+  }
+}

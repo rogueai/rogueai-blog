@@ -1,0 +1,46 @@
+\documentclass{article}
+
+\usepackage{comment, multicol}
+\usepackage{hyperref}
+\usepackage{calc,pict2e,picture}
+\usepackage{textgreek,textcomp,gensymb,stix}
+
+\setcounter{secnumdepth}{2}
+
+\title{\LaTeX $\varheartsuit$ Post}
+\author{made with $\varheartsuit$ by RogueAI}
+\date{2021}
+
+
+\begin{document}
+    \maketitle
+    \begin{abstract}
+        This document will show most of the features of \LaTeX.js while at the same time being a gentle introduction to \LaTeX.
+        In the appendix, the API as well as the format of custom macro definitions in JavaScript will be explained.
+    \end{abstract}
+    
+    \section{Characters}
+
+    It is possible to input any UTF-8 character either directly or by character code
+    using one of the following:
+
+    \begin{itemize}
+        \item \texttt{\textbackslash symbol\{"00A9\}}: \symbol{"00A9}
+        \item \verb|\char"A9|: \char"A9
+        \item \verb|^^A9 or ^^^^00A9|: ^^A9 or ^^^^00A9
+    \end{itemize}
+
+    \bigskip
+
+    \noindent
+    Special characters, like those:
+    \begin{center}
+        \$ \& \% \# \_ \{ \} \~{} \^{} \textbackslash % \< \>  \"   % TODO cannot be typeset
+    \end{center}
+%
+    have to be escaped.
+
+    More than 200 symbols are accessible through macros. For instance: 30\,\textcelsius{} is
+    86\,\textdegree{}F. See also Section~\ref{sec:symbols}.
+
+\end{document}

@@ -1,0 +1,18 @@
+
+.katex-post {
+    --textwidth: 56.162%;
+    /*--size: 18.597px;*/
+    --marginleftwidth: 21.919%;
+    --marginrightwidth: 21.919%;
+    --marginparwidth: 48.892%;
+    --marginparsep: 14.612px;
+    --marginparpush: 6.642px;
+}
+
+
+@media (max-width: 720px) {
+    .katex-post {
+        --marginrightwidth: unset;
+        --marginparwidth: unset;
+    }
+}

@@ -1,0 +1,3 @@
+
+${latex:example.tex}
+
